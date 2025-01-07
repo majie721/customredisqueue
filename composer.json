@@ -1,0 +1,15 @@
+{
+  "name": "majie721/customredisqueue",
+  "type": "library",
+  "license": "MIT",
+  "description": "Webman plugin majie721/customredisqueue",
+  "require": {
+    "php": ">=7.2",
+    "workerman/redis": "^1.0||^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Majie721\\CustomRedisQueue\\": "src"
+    }
+  }
+}
